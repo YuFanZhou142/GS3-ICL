@@ -1,0 +1,22 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+.venv/
+venv/
+
+.claude/
+.vscode/
+runs/
+checkpoints/
+*.log
+
+# Dataset: exclude all data files, keep only the dataset overview.
+dataset/**
+!dataset/
+!dataset/README.md
+
+paper/

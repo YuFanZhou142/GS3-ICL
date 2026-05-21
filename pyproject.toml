@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gs3-icl"
+version = "0.1.0"
+description = "Reference training surface for GS3-ICL."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "torch",
+  "torchvision",
+  "transformers",
+  "Pillow",
+  "numpy"
+]
+
+[tool.setuptools]
+packages = ["gs3_icl"]
+include-package-data = false
+
+[tool.setuptools.package-dir]
+gs3_icl = "."
