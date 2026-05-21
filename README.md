@@ -3,6 +3,7 @@
 <p align="center">
   <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python-3.10%2B-blue.svg" alt="Python"></a>
   <a href="https://pytorch.org/"><img src="https://img.shields.io/badge/PyTorch-Implementation-ee4c2c.svg" alt="PyTorch"></a>
+  <a href="./LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg" alt="MIT License"></a>
   <a href="./fig/method.png"><img src="https://img.shields.io/badge/Method-Figure-lightgrey.svg" alt="Method Figure"></a>
 </p>
 
